@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class mydetails{
+    String name, email;
+    int id;
+    mydetails( String a, String b, int i ) {   //  Constrictor
+        name = a;                               
+        email = b;
+        id = i;
+    }                                           //
+    void output(){
+        System.out.println("Name : "+name);
+        System.out.println("Email: "+email);
+        System.out.println("Id : "+id);
+    }
+}
+public  class first{
+    public static Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+
+        mydetails first = new mydetails("md shohed","mdshohed170@gmail.com",201914);
+        first.output();
+    }
+}
