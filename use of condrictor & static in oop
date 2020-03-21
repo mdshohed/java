@@ -21,3 +21,41 @@ public  class first{
         first.output();
     }
 }
+
+
+// static class call main method...
+import java.util.Optional;
+import java.util.Scanner;
+
+ class myclass {
+    static String name, email;
+    static int id;
+
+    myclass(String a, String b, int c) {
+        name = a;
+        email = b;
+        id = c;
+    }
+
+    void output() {
+        System.out.println("name: " + name);
+        System.out.println("email: " + email);
+        System.out.println("Id : " + id);
+    }
+
+    static void output2() {
+        System.out.println("name: " + name);
+        System.out.println("email: " + email);
+        System.out.println("Id : " + id);
+    }
+}
+
+public class  first{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        myclass m1 = new myclass("md shohed", "mdshohed170@gmail.com", 14);
+        m1.output();
+        System.out.println();
+        myclass.output2();
+    }
+}
