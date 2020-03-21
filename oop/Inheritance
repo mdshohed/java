@@ -1,0 +1,25 @@
+
+
+class pertion{
+    String s, email;
+    int age;
+    void details( ) {
+        System.out.println("name: "+s);
+        System.out.println("Email: "+email);
+        System.out.println("Age: "+age);
+    }
+}
+class  tearch extends  pertion{
+    void details2() {
+        details();
+    }
+}
+public  class  first{
+    public static void main(String[] args) {
+        tearch m = new tearch();
+        m.s = "md shohed";
+        m.email = "mdshoehd170@gmail.com";
+        m.age = 30;
+        m.details2();
+    }
+}
