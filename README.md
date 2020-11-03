@@ -1,10 +1,9 @@
-# JAVA-language
+ **First of all we going to checked java already install or not**
+  **open window cmd**
+  type:
+  ``java -version`` or `javac`
 
-
-for the java programmig language i need some knowledge,thats why this folder has created of java some topic
-1: class
-2: objects 
-3: variables
-4: data types 
-5: methods 
-6: constructor 
+### we can use for java code runnning netbeans or eclips. given below both apps link
+--
+ - []()
+ - []()
