@@ -9,3 +9,8 @@
  * **we can use for java code runnning netbeans or eclips. given below both apps link**
  - [Apache NetBeans 12 LTS-Binaries](https://netbeans.apache.org/download/nb120/nb120.html)
  - [eclipse-inst-jre-win64.exe](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-09/R/eclipse-inst-jre-win64.exe)
+ 
+ 
+ 
+ ## codeing lelp site: 
+  * [www.programiz.com](https://www.programiz.com/java-programming/variables-primitive-data-types)
