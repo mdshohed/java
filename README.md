@@ -1,4 +1,4 @@
- **First of all we going to checked java already install or not**
+ **First of all we are going to checked java already install or not**
  **open window cmd**
   type:
   ``java -version`` or `javac`
