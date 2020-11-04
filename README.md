@@ -1,5 +1,5 @@
  * **First of all we are going to checked java already install or not**.
- **open window cmd**
+ **open cmd window**
   type:
   ``java -version`` or `javac`
  If not, we must have to download java jdk, given below download link
