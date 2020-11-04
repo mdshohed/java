@@ -1,5 +1,4 @@
 
-
 package Javacode;
 public class Codechef {
     public static void main(String[] args) {
