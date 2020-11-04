@@ -27,7 +27,8 @@ public class problem {
     public static void main(String[] args) {
         int a = 1000; 
         int b = 2334; 
-        System.out.println("Sum: "+sum(a, b));  // reutrn value 
+        int ans = sum(a, b); 
+        System.out.println("Sum: "+ans);  // reutrn value 
         solve();   // void function using for minmum and maximum value;
     }
 }
