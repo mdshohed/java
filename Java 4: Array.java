@@ -4,7 +4,9 @@ import java.util.*;
 public class problem {
     static Scanner sc = new Scanner(System.in); 
     public static void main(String[] args) {
-        // 1D array..
+        
+        // 1D array value input & output...
+        
         System.out.println("1D Array input value: ");
         int n = sc.nextInt(); 
         int[] ara = new int[n]; 
@@ -17,7 +19,7 @@ public class problem {
         }
         System.out.println();
         
-        //2D array..
+        //2D array value input & output...
         System.out.println("2D Array input value: ");
         n = sc.nextInt();
         int[][] array = new int[n][n]; 
@@ -32,6 +34,12 @@ public class problem {
                 System.out.print(array[i][j]+" ");
             }
             System.out.println("");
+        }
+        
+        // array value access using iterator
+        System.out.println("Iterator array:");
+        for (int i:ara){
+            System.out.print(i+" ");
         }
     }  
 }
