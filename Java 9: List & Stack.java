@@ -1,16 +1,24 @@
 package Javacode;
 
-import java.io.*;
 import java.util.*;
 
-public class Codeforces { 
+public class Codeforces {
 	
-	
-	static Scanner scanner = new Scanner(System.in); 
 	public static void main(String[] args) {
+		arraylist(); 
+		System.out.println();
 		
-		// list.. 
+		linklist();
+		System.out.println();
 		
+		vector();
+		System.out.println();
+		
+		stack();
+		System.out.println();
+		
+	}
+	static public void arraylist() {
 		// arraylist...
 		System.out.println("Array List:");
 		ArrayList<Integer> aralist = new ArrayList<>(); 
@@ -28,8 +36,8 @@ public class Codeforces {
 		aralist.set(0, 333333); 
 		// after arraylist..
 		System.out.println("Arraylist: "+aralist);
-		
-		
+	}
+	static public void linklist() {
 		//linklist..
 		System.out.println("Link list:");
 		List<Integer> linkList = new LinkedList<>(); 
@@ -39,10 +47,10 @@ public class Codeforces {
 		linkList.add(22); 
 		
 		System.out.println("Link list: "+linkList );
-		n = linkList.get(2); 
+		int n = linkList.get(2); 
 		System.out.println( "Access value: "+n);
 		
-		value = linkList.indexOf(4); 
+		int value = linkList.indexOf(4); 
 		System.out.println("index value: "+value);
 		
 		int remove = linkList.remove(1); 
@@ -50,9 +58,9 @@ public class Codeforces {
 		// after link list..
 		linkList.set(1, 333333); 
 		System.out.println( "link list: "+linkList);
-		
-		
-		
+	}
+	
+	static public void vector() {
 		// vector...
 		
 		Vector<Integer> vector = new Vector<>(); 
@@ -69,6 +77,27 @@ public class Codeforces {
 //		while (iterator.hasNext() ) {
 //			System.out.println("vector value: "+iterator.next());
 //		}
+	}
+	
+	static public void stack() {
+		// stack.. 
+		Stack<Integer> stack = new Stack<>(); 
 		
+		stack.push(23); 
+		stack.push(12); 
+		stack.push(5); 
+		stack.push(67); 
+		
+		System.out.println("stack value: "+stack);
+		
+		stack.pop(); 
+		System.out.println("Stack: "+stack);
+		int value = stack.peek(); 
+		System.out.println("Stack append value: "+value);
+		
+		int s = stack.search(3); 
+		System.out.println("search value: "+s);
+		boolean e = stack.empty(); 
+		System.out.println("stack is empty or not: "+e);
 	}
 }
