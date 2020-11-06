@@ -1,8 +1,8 @@
 /*
 
-				object
-				  |
-				Throwable
+		    object
+		      |
+		  Throwable
 	______________|___________________________
 	|                       Un-Checked        |
   	Error               	Exception         |  Checked 
