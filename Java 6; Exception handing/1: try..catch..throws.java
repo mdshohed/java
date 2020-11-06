@@ -5,15 +5,15 @@
 				Throwable
 	______________|___________________________
 	|                       Un-Checked        |
-  Error               	    Exception         |  Checked 
-  							__________________|__Exception____
-	|					    |						         |
-	|__StackOverFlow		|__RuntimeException              |__IOException
-	|__etc  			    |__Arithmatic Exception          |__FileNotFoundException
-	|					    |__NumberNotFoundExceptin        |__ClassNotFoundExceptin
-						    |__NULLPointexcpetion          	 |__etc...
-						    |__ArrayIndexOutBoundsExcpetion
-							|__etc...
+  	Error               	Exception         |  Checked 
+  				__________________|__Exception____
+	|		        |				 |
+	|__StackOverFlow	|__RuntimeException              |__IOException
+	|__etc  		|__Arithmatic Exception          |__FileNotFoundException
+	|			|__NumberNotFoundExceptin        |__ClassNotFoundExceptin
+				|__NULLPointexcpetion          	 |__etc...
+				|__ArrayIndexOutBoundsExcpetion
+				|__etc...
 */
 
 package Problem;
