@@ -1,12 +1,16 @@
 package OOP;
 
 public class Encapsulation {
+
     public static void main(String[] args) {
+
         student m = new student();
+
         m.setName("mdshohed");
         System.out.println(m.getname());     // form the class private valute not use
-        m.setage(100);                      // i can use first of all constructor
-        System.out.println(m.getage());    // create then form the public value to private
+
+        m.setage(1000);                  // i can use first of all constructor
+        System.out.println(m.getage());   // create then form the public value to private
     }
 }
 
@@ -14,12 +18,15 @@ public class Encapsulation {
 class student{
     private  String a ;
     private  int b;
+
+    //setter Method;
     public void setName( String a) {
         this.a = a;
     }
     public  String getname(){
         return a;
     }
+
     public void setage( int b) {
         this.b = b;
     }
