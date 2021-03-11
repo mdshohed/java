@@ -7,7 +7,7 @@
    **Then, We have to setup windows environment**
 
 
- **We can Use Netbeans, Eclips or intelijen. given below both apps link**
+ **We can Use Netbeans, Eclips or intelijen. Below apps link**
    - [Apache NetBeans 12 LTS-Binaries](https://netbeans.org/downloads/6.1/index.html)
    - [eclipse-inst-jre-win64.exe](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-09/R/eclipse-inst-jre-win64.exe)
    - [intelijen IDEA](https://www.jetbrains.com/idea/download/#section=windows)
